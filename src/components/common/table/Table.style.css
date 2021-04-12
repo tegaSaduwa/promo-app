@@ -1,0 +1,11 @@
+.table-card {
+  /* border: 2px solid black; */
+  margin: 30px;
+  box-shadow: 1px 1px 1.5px 2px rgb(206, 202, 202); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.cont {
+  margin: 30px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

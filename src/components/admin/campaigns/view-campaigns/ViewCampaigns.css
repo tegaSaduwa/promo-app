@@ -1,0 +1,29 @@
+.table {
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.table,
+th,
+td {
+  border: 1px solid #B0B0B0; 
+  box-sizing: border-box;
+  box-shadow: grey, grey;
+}
+
+thead {
+  border: 1px solid #C0C0C0;
+  background-color:#910d7d ;
+  color: white;
+  
+}
+
+td.clickable-name {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+td.clickable-name:hover {
+  color: grey;
+}

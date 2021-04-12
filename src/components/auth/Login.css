@@ -1,0 +1,86 @@
+/* .left-side,
+.right-side {
+  height: 100vh;
+  width: 100%;
+}
+
+.left-side {
+  background: #92137e;
+}
+
+.right-side {
+  margin-top: 1%;
+  background-image: url("../images/doc.svg");
+  background-size: cover;
+  height: 570px;
+}
+
+.cont {
+  padding: 24%;
+  color: white;
+}
+
+.cont-header {
+  padding-bottom: 5%;
+}
+
+#logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#logo img {
+  width: 105px;
+  padding: 5px;
+} */
+
+/* Split the screen in half */
+#logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#logo img {
+  width: 105px;
+  padding: 5px;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #92137e;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: white;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 400px;
+  /* border-radius: 50%; */
+}
